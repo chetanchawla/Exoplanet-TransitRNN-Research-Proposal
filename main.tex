@@ -35,11 +35,14 @@
 \usepackage{fancyhdr}
 \pagestyle{fancyplain}
 %\fancyhead{}									% No page header
-\fancyhead[L]{\today}
-\fancyhead[R]{Chetan Chawla}
-\fancyfoot[L]{}									% Empty 
-\fancyfoot[C]{}									% Empty
-\fancyfoot[R]{\thepage}							% Pagenumbering
+\fancyhead[R]{\thepage}
+\fancyhead[L]{\small{Exoplanet Transit Classification
+and \\
+Parameterization using Recurrent Neural Networks}}
+\fancyfoot[L]{\small{Chetan Chawla}}
+\fancyfoot[C]{}					
+\fancyfoot[R]{\small{\today}}			
+
 \renewcommand{\headrulewidth}{1pt}			% Remove header underlines
 \renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
 \setlength{\headheight}{2pt}
@@ -57,7 +60,7 @@
 \title{
 		%\vspace{-1in} 	
 		\usefont{OT1}{bch}{b}{n}
-		\normalfont \normalsize \textsc{Intro To Astro 2020 Final Project Proposal} \\ [25pt]
+		\normalfont \normalsize \textsc{Intro To Astro 2020 - Final Project Proposal} \\ [25pt]
 		\horrule{0.5pt} \\[0.4cm]
 		\huge Exoplanet Transit Classification and Parameterization using Recurrent Neural Networks \\
 		\horrule{2pt} \\[0.5cm]
@@ -79,29 +82,8 @@
 \input{Introduction}
 
 \section{Background}
-%Move from macro to micro, citing from oldest references to the most recent
+\input{Background}
 
-%What it is: 
-%–Overview of previous work in the field 
-%– What’s the big picture?
-%–Explanation of how your work addresses the gap in the field
-%–Enough technical details for the reader to understand your project
-%–Explanation of importance/impact of your work 
-
-%What you need to show: 
-%–You understand what’s going on in your field, and how your work fits into that. 
-%–You have the authority to say your research is important/novel. 
-
-%Can be helpful to... 
-%–Restate your hypothesis 
-%–Briefly mention an experimental overview (just enough to lead the reader into your Project Plan)
-
-
-%Disadvantage to Bayesian Fit and MCMC: These include the subjectivity induced by choice of prior as well high computational costs
-
-\subsection{Neural Networks}
-
-\subsection{Recurrent Neural Networks}
 
 
 
