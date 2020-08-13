@@ -1,0 +1,14 @@
+% What will be the final product of this work? (thesis, publication, a new research tool, etc.)
+
+
+
+%What do you want to find out? What don’t we already know? 
+
+%Why are you doing this research? Why should we care? (Often, this is a new intriguing result that raises a new question to be investigated. Tie it back to society, the real world.)
+
+%What are the broader impacts of this research to the field, society?
+
+
+A huge amount of data is produced by Telescopes such as \textbf{Kepler} Space Telescope and \textbf{TESS} (Transiting Exoplanet Survey Satellite), and even wider amounts of data is expected to be produced by upcoming missions like \textbf{PLATO} (PLAnetary Transits and Oscillations of stars) mission by ESA and \textbf{ARIEL} (Atmospheric Remote-sensing Infrared Exoplanet Large-survey). With this volume and diversity of transit data being recorded, there is a strong need for methods which can systematically detect and vet transiting exoplanets, separate them from Astrophysical False Positives and other stellar phenomena (such as stellar flares), and reduces the human intervention in doing so. This, if combined with speed, will result in a pipeline that can automatically find out the Objects of Interest in these missions, classify the transiting phenomena as an exoplanet, other Astrophysical False Positives, such as caused by Eclipsing binaries or variations of stellar flux due to stellar flares, and further help us in parameterization of the detected exoplanets' Radius and Periods.\\
+
+Kepler pipeline employs Vetting systems such as \textbf{Robovetter}, which uses Decision Tress to replicate the manual process of separating a detected transit into a Planet Candidate (PC), Astrophysical Fasle Positive (AFP), Non-Transiting Phenomena (NTP) or an Unknown phenomena (UNK) class, and \textbf{Autovetter}, which is a Machine Learning system using Random Forest based classification to vet the detected transits in the above mentioned classes. However, in Robovetter, heuristics are explicitly defined by humans, while Autovetter is dependent on the features derived by the Kepler's pipeline. The more recent machine learning models also make the use of Deep Learning, a subset of Machine Learning which uses mathematical connected sub-units called Neurons for their "brain like" functioning. \textbf{Astronet}
