@@ -43,14 +43,14 @@ Parameterization using Recurrent Neural Networks}}
 \fancyfoot[C]{}					
 \fancyfoot[R]{\small{\today}}			
 
-\renewcommand{\headrulewidth}{1pt}			% Remove header underlines
-\renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0pt}% Remove footer underlines
 \setlength{\headheight}{2pt}
 
 
 %%% Equation and float numbering
 \numberwithin{equation}{section}		% Equationnumbering: section.eq#
-\numberwithin{figure}{section}			% Figurenumbering: section.fig#
+% \numberwithin{figure}{section}			% Figurenumbering: section.fig#
 \numberwithin{table}{section}			% Tablenumbering: section.tab#
 
 
@@ -84,48 +84,14 @@ Parameterization using Recurrent Neural Networks}}
 \section{Background}
 \input{Background}
 
-
-
-
-
 \section{Proposed Methodology}
-%What it is: 
-%–Describes your hypothesis in detail. (first paragraph)
-%–Outlines the steps you will take to prove/disprove your hypothesis (Specific Aims) 
-%–Establishes the metrics/benchmarks you will use.
-%–Outlines how your time will be allocated. (Timeline!) 
-%–Addresses alternatives and contingency plans. 
-
-%What you need to show: 
-%–You have a well thought-out and thorough plan of action. 
-%–You have clearly defined methods, and metrics for evaluating your results. 
-%–You’ve thought about potential delays or obstacles. 
-%–Your Aims are appropriate, reasonable, and not interdependent. 
-
-
-\subsection{Data Required}
-
-\subsection{Time Requirement}
-
-
+\input{Methodology}
 
 \section{Conclusion}
+\input{Conclusions}
 
-
-
-\begin{thebibliography}{99}
-
-\bibitem{einstein15}
- 	\href{http://www.gsjournal.net/old/eeuro/vankov.pdf}{Einstein, A. 1915. \emph{Explanation of the
-	Perihelion Motion of Mercury from General Relativity Theory}. Koniglich Preußische Akademie der Wissenschaften (Berlin). Sitzungsberichte: 831-839}
-	
-\bibitem{oppenheimer39}
-	\href{http://journals.aps.org/pr/abstract/10.1103/PhysRev.55.374}{Oppenheimer, J. R. and Volkoff, G. M. 1939. \emph{On Massive Neutron Cores}. Phys. Rev. 55, 374}
-	
-\bibitem{ligo11}
-	\href{https://arxiv.org/pdf/1102.3781v1.pdf}{Abadie, J, and Abbott, B.P. et al. (LIGO Scientific Collaboration and Virgo 	Collaboration). 2011. \emph{Search for gravitational waves from binary black hole inspiral, merger and ringdown}.  		arXiv:1102.3781}
-
-\end{thebibliography}
+%Refrences
+\input{References}
 
 %%% End document
 \end{document}
